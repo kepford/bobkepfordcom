@@ -3,31 +3,27 @@ layout: default
 title: Home
 generator: pagination
 pagination:
-    max_per_page: 3
+-   max_per_page: 3
 use:
     - posts
 ---
+
+ <div class="lead">Hello, my name is <a href="https://twitter.com/kepford">Bob Kepford</a>. I'm a web architect from Caruthers, California. I build <a href="http://drupal.org">Drupal</a> web applications for <a href="http://mediacurrent.com">Mediacurrent</a> and publish a weekly email newsletter for the Drupal community called <a href="http://theweeklydrop.com">TheWeeklyDrop</a> and co-host the <a href="https://www.mediacurrent.com/dropcast">Mediacurrent Dropcast</a>.</div>
+
+<h3>Featured Ramblings</h3>
+<div>
+  <a href="https://www.mediacurrent.com/blog/animated-gifs-real-work">Animated Gifs for Real Work</a>
+</div>
+<div>
+  <a href="https://www.mediacurrent.com/blog/efficient-drupal-development-tmux-and-tmuxinator">Efficient Drupal Development with Tmux and Tmuxinator</a>
+</div>
+
+
+<h3>The Seldom Updated Blog</h3>
 {% for post in page.pagination.items %}
-    <article>
-        <header>
-            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-        </header>
-        <div>
-            {{ post.blocks.content|raw }}
-        </div>
-        {% if post.meta.tags %}
-            <p class="tags">
-            Tags:
-            {% for tag in post.meta.tags %}
-            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-            </p>
-        {% endif %}
-    </article>
+<div>
+  <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+</div>
 {% endfor %}
-{% if page.pagination.previous_page or page.pagination.next_page %}
-    <nav>
-        {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts</a>{% endif %}<br />
-        {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts</a>{% endif %}<br />
-    </nav>
-{% endif %}
+
+
