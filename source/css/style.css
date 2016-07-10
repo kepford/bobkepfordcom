@@ -1,3 +1,10 @@
+.lead {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 50px;
+}
+
 h4 small
 {
     display: block;
