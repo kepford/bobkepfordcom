@@ -17,8 +17,11 @@ Bob is a native Californian and holds a Bachelor of Science in Information Techn
 
 ## Talks
 
-* [Cracking the Shell: Command Line for the Drupaler](https://www.sandcamp.org/session/cracking-shell-command-line-drupaler) - February 26, 2016 - SANDCamp
+* [Cracking the Shell: Command Line for the Drupaler](https://2016.badcamp.net/session/cracking-shell-command-line-drupaler) - February 17, 2017 - SANDCamp
+* [Cracking the Shell: Command Line for the Drupaler](https://2016.badcamp.net/session/cracking-shell-command-line-drupaler) - October 23, 2016 - BADCamp
   * [Slides](http://kepford.github.io/cracking-the-shell/#/)
+  * [Video](https://www.youtube.com/watch?v=R94EEc10-pM)
+* [Cracking the Shell: Command Line for the Drupaler](https://www.sandcamp.org/session/cracking-shell-command-line-drupaler) - February 26, 2016 - SANDCamp
 * [Case Study: Come See How TheWeeklyDrop is Made](https://www.sandcamp.org/session/case-study-come-see-how-theweeklydrop-made) - February 26, 2016 - SANDCamp
   * [Slides](http://f.cl.ly/items/2s1S3C3b2X2L0B0F3D2R/How%20TheWeeklyDrop%20is%20Made%20Talk-SANDCamp-2-26-16.pdf)
 * [Build a Blog with Drupal 8 on the Day it's Released](http://2014.drupalcampla.com/sessions/build-blog-drupal-8-day-its-released) - September 6, 2014 - DrupalCamp LA

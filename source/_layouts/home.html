@@ -53,26 +53,27 @@
         {% endblock %}
     </head>
     <body>
-        <header>
-            <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-inner">
-                    <div class="container-fluid">
-                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </a>
-                        <a class="brand" href="{{ site.url }}/">{{ site.title }}</a>
-                        <div class="nav-collapse collapse">
-                            <ul class="nav">
-                                <li><a href="{{ site.url }}/blog">Blog</a></li>
-                                <li><a href="{{ site.url }}/about">About</a></li>
-                            </ul>
-                        </div><!--/.nav-collapse -->
-                    </div>
-                </div>
+      <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="collapsed navbar-toggle" data-toggle="collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="{{ site.url }}/">{{ site.title }}</a>
             </div>
-        </header>
+            <div class="">
+              <ul class="nav navbar-nav">
+                <li><a href="{{ site.url }}/blog">Blog</a></li>
+                <li><a href="{{ site.url }}/about">About</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+      </header>
         <div class="mainContent container">
             <div class="row-fluid">
                 <div>
