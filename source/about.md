@@ -37,6 +37,9 @@ Bob is a native Californian and holds a Bachelor of Science in Information Techn
 ## Media
 
 * [Mediacurrent Dropcast: Co-host](https://www.mediacurrent.com/dropcast) - current
+* [Friday 5: 5 Command Line Tools You Should Use NOW](https://www.mediacurrent.com/blog/friday-5-5-command-line-tools-you-should-use-now)
+* [Friday 5: 5 Command Line Tips and Tricks](https://www.mediacurrent.com/blog/friday-5-5-command-line-tips-and-tricks)
+
 * [Lullabot Podcast - Keeping Up with Drupal News](https://www.lullabot.com/podcasts/drupalizeme-podcast/keeping-up-with-drupal-news) - August 8, 2014
 * [DrupalEasy Podcast 105: Men in Tights](https://www.drupaleasy.com/podcast/2013/05/drupaleasy-podcast-105-men-tights) - May 8, 2013
 * [Drupal Voices: Bob Kepford - The Weekly Drop](https://www.lullabot.com/podcasts/drupal-voices/bob-kepford-the-weekly-drop) - April 17, 2012
