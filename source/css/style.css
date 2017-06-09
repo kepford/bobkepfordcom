@@ -1,3 +1,7 @@
+nav.navbar {
+    padding: 0 10px;
+}
+
 .lead {
   margin-bottom: 20px;
   font-size: 32px;
